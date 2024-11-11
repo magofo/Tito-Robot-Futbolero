@@ -75,3 +75,53 @@ footer{
     color:rgb(57, 11, 78);
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .logo {
+        font-size: 30px;
+        padding: 10px 15px;
+    }
+    
+    .nos {
+        font-size: 16px;
+        padding: 8px 15px;
+        margin-left: 0;
+    }
+    
+    .todo {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .logo {
+        font-size: 28px;
+        padding: 8px 10px;
+    }
+    
+    .nos {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+    
+    .todo {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+}
