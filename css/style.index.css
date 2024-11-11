@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(229, 212, 237);
+    margin: 0px;
+    
+}
+
+header{
+background-color: rgb(221, 179, 240);
+text-align: left;
+padding: 10px 20px 10px 20px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px 5px 20px;
+    background-color: rgb(200, 155, 220);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.nos{
+    margin-left: 30%;
+    color: rgb(255, 255, 255);
+
+    background-color:  rgb(158, 110, 179);
+        padding: 10px 20px 5px 20px;
+    font-size: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.nos:hover{
+    margin-left: 30%;
+    transition: 1s;
+    color: rgb(60, 22, 75);
+    padding: 10px 20px 5px 20px;
+    background-color: rgb(200, 155, 220);
+    text-decoration: none;
+}
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.QR {
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    gap: 10px; /* Espacio entre los elementos */
+    margin: 20px;
+    padding: 10px 30px 10px 30px;
+    border: 5px solid rgb(108, 68, 151);
+    border-radius: 20px;
+    background-color: #bc7fffff;
+    width: 90%;
+
+}
+
+.QR1 {
+text-align: center;
+margin: 0% 0% 0% 20%;
+
+}
+
+.QR h2, .QR p {
+    margin: 0; 
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+}
+
+.contenedorcito{
+    background-color: #bc7fffff;
+    border: 5px solid rgb(142, 94, 194);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    height: 200px;
+    width: 50%;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    background-color: rgb(159, 68, 255);
+    color: rgb(13, 0, 27);
+    padding: 10px 0px 10px 5px;
+    margin-bottom: 0px;
+}
+
+p{
+    margin: 10px;
+}
+
+.boton{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color:  rgb(158, 110, 179);
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 5%;
+}
+
+.boton:hover{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    color:  rgb(46, 19, 57);
+    transition: 1s;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 5%;
+}
+
+
+
+footer{
+    background-color: rgb(221, 179, 240);
+    padding: 10px;
+    color:rgb(57, 11, 78);
+    text-align: center;
+}
+
+
+

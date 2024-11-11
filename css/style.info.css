@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(229, 212, 237);
+    margin: 0px;
+    
+}
+
+header{
+background-color: rgb(221, 179, 240);
+text-align: left;
+padding: 10px 20px 10px 20px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px 5px 20px;
+    background-color: rgb(200, 155, 220);
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.nos{
+    margin-left: 30%;
+    color: rgb(255, 255, 255);
+
+    background-color:  rgb(158, 110, 179);
+        padding: 10px 20px 5px 20px;
+    font-size: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.nos:hover{
+    margin-left: 30%;
+    transition: 1s;
+    color: rgb(60, 22, 75);
+    padding: 10px 20px 5px 20px;
+    background-color: rgb(200, 155, 220);
+    text-decoration: none;
+}
+
+.todo{
+    padding:10px 50px 10px 50px;
+margin: 10px;
+
+}
+
+.img-principio{
+    text-align: center;
+}
+
+h2{
+    color: rgb(45, 20, 70);
+    background-color: #bc7fffff;
+    padding: 10px 0px 10px 5px;
+}
+
+h3{
+    color: rgb(64, 35, 91);
+}
+
+p{
+    margin: 10px;
+}
+
+.img1{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+footer{
+    background-color: rgb(221, 179, 240);
+    padding: 10px;
+    color:rgb(57, 11, 78);
+    text-align: center;
+}
